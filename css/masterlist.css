@@ -235,7 +235,7 @@
     .master-list-pg .category > li {height: auto;}
     .master-list-pg .category .text-wrap .text {width: 100%;}
     .master-list-pg .master-btn-list button {width: 90px; height: 90px;}
-    .master-list-pg .master-btn-list li {min-width: 103px;}
+    .master-list-pg .master-btn-list li {min-width: 105px;}
 }
 @media only screen and (max-width:440px) {
     .master-list-pg .category .text-wrap .score .question-contetns {min-width: 228px;}
