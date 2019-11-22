@@ -235,12 +235,8 @@
     .master-list-pg .category > li {height: auto;}
     .master-list-pg .category .text-wrap .text {width: 100%;}
     .master-list-pg .master-btn-list button {width: 90px; height: 90px;}
-    .master-list-pg .master-btn-list li {min-width: 105px;}
+    .master-list-pg .master-btn-list li {min-width: 119px;}
 }
 @media only screen and (max-width:500px) {
     .master-list-pg .category .text-wrap .score .question-contetns {min-width: 228px;}
-    .master-list-pg .category-btn-list li {min-width: 96px;}
-}
-@media only screen and (max-width:400px) {
-    .master-list-pg .category-btn-list li {min-width: 111px;}
 }

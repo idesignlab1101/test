@@ -554,4 +554,6 @@
     .master-list-detail-pg .record .contents .wrap span {width: 100%; margin-bottom: 3%; text-align: center;}
     .master-list-detail-pg .record .contents .wrap .contents-list {width: 100%; float: left;}
     .master-list-detail-pg .profile-wrap > .text-wrap .reference-list .screen img {width: 27px;}
+    .education-pg {padding-top: 7%;padding-bottom: 7%;}
+    .education-pg .text-wrap p:last-child {margin-top: 3%;}
 }
