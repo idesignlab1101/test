@@ -131,6 +131,7 @@ section {
     display: inline !important;
 }
 .education-contents .modal-ul .modal-li textarea {
+    border-radius: 1px;
     box-shadow: 4px 5px 6px 0 rgba(0, 0, 0, 0.05);
 }
 .education-contents .modal-ul .modal-li label {
