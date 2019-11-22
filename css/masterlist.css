@@ -239,4 +239,5 @@
 }
 @media only screen and (max-width:440px) {
     .master-list-pg .category .text-wrap .score .question-contetns {min-width: 228px;}
+    .master-list-pg .category-btn-list li {min-width: 96px;}
 }

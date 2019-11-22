@@ -1095,6 +1095,7 @@ footer .newsletter button {
 /* mobile device */
 @media only screen and (max-width:700px) {
     html {font-size: 70% !important;}
+    .master-contents .list-wrap li {height: 120px;}
     section,footer {padding-top: 10%; padding-bottom: 11%;}
     .w-header {display: none;}
     .m-header {display: block;}
