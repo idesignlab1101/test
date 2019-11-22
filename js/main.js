@@ -29,6 +29,14 @@ var swiper = new Swiper('.review-slider', {
       slidesPerView: 8,
       spaceBetween: 30,
     },
+    1300: {
+      slidesPerView: 5,
+      spaceBetween: 30,
+    },
+    1600: {
+      slidesPerView: 8,
+      spaceBetween: 30,
+    },
   }
 });
 $(".review-slider .swiper-slide").hover(
