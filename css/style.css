@@ -431,4 +431,8 @@
 @media only screen and (max-width:500px) {
     .honor-pg .category-btn-list li:nth-child(even) {margin-bottom: 3%;}
     .main-pg .text-wrap h1, .main-pg .text-wrap h1 strong {font-size: 2.3rem;}
+    .honor-pg .category-btn-list li {min-width: 105px;}
+}
+@media only screen and (max-width:500px) {
+    .honor-pg .category-btn-list li {min-width: 111px;}
 }
