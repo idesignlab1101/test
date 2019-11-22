@@ -1106,7 +1106,7 @@ footer .newsletter button {
     .quick-btn {width: 128px;}
     .quick-btn .wrap span {margin-left: 7%;}
     .modal {width: 90%;}
-    .inner {width: 90%; min-width: 90%;}
+    .inner {width: 80%; min-width: 80%;}
     .detail-title {margin-bottom: 5%;}
 }
 @media only screen and (max-width:440px) {

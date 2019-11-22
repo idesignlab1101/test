@@ -40,6 +40,10 @@
      $('.quick-contents-back').fadeOut();
      $('.quick-contents').fadeOut();
  });
+ $('.quick-contents .submit-btn').click(function(){
+    $('.quick-contents-back').fadeOut();
+    $('.quick-contents').fadeOut();
+});
 
  // footer select 
  let select = document.querySelector('footer .select-box');
