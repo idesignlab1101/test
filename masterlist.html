@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:type" content="PRO school | b2b | website">
+    <meta property="og:title" content="프로스쿨 기업교육 | 강사진 소개">
+    <meta property="og:url" content="http://b2b.proschool.kr/masters">
+    <meta property="og:description" content="학문적 접근을 통한 깊은 지식과 현업의 비즈니스 전문성을 갖춘 강사진과 함께합니다.">
+    <meta property="og:image" content="./images/thumbnail.png">
+    <title>프로스쿨 기업교육 | 강사진 소개</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/masterlist.css">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+</head>
+
+<body>
+    <div class="master-back modal-back">
+        <div class="master-contents modal">
+            <img class="master-close-btn close-btn" src="./images/close-modal.png" alt="닫기">
+            <div class="inner">
+                <ul class="pagination clearfix">
+                    <li class="active" id="modal_step_master_1"></li>
+                    <li id="modal_step_master_2"></li>
+                    <li id="modal_step_master_3"></li>
+                    <li id="modal_step_master_4"></li>
+                </ul>
+                <form action="#">
+                    <div class="modal-wrap">
+                        <ul class="modal-ul clearfix" id="modal_ul_master">
+                            <li class="modal-li">
+                                <h2>마스터 등록</h2>
+                                <div class="modal-container">
+                                    <div class="col">
+                                        <p class="onepg-text">나누고 싶은 <strong>지식과 전문성</strong>을<br>
+                                            보유하고 있다면 누구나<br>
+                                            프로스쿨의 <strong>마스터</strong>가 될 수 있습니다.</p>
+                                    </div>
+                                    <a href="javascript: modalNextBtnM();" class="modal-next-btn">다음</a>
+                                </div>
+                            </li>
+                            <li class="modal-li">
+                                <h2>CO-WORK PROCESS</h2>
+                                <div class="modal-container">
+                                    <div class="col">
+                                        <ul class="list-wrap clearfix">
+                                            <li>
+                                                <div class="text-wrap">
+                                                    <p class="step">STEP 01</p>
+                                                    <p class="title">등록하기</p>
+                                                    <p class="contents">강의분야, 주요이력, 학력, 저서,
+                                                        주요활동 등의 내용이 포함된
+                                                        프로필을 첨부파일로 등록</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="text-wrap">
+                                                    <p class="step">STEP 02</p>
+                                                    <p class="title">사전미팅</p>
+                                                    <p class="contents">프로필 내부 검토 후1차 미팅을
+                                                        통해 실무협의 진행</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="text-wrap">
+                                                    <p class="step">STEP 03</p>
+                                                    <p class="title">계약체결</p>
+                                                    <p class="contents">서비스 유형, 범위, 기간 등
+                                                        상호협력을 위한 계약체결</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="text-wrap">
+                                                    <p class="step">STEP 04</p>
+                                                    <p class="title">콘텐츠 브랜딩</p>
+                                                    <p class="contents">서비스 유형에 따라 교육
+                                                        콘텐츠 초기 전략 기획부터
+                                                        5단계 프로세스를 통한
+                                                        콘텐츠 기획, 개발 검증
+                                                        절차 실행</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="text-wrap">
+                                                    <p class="step">STEP 05</p>
+                                                    <p class="title">홍보 마케팅</p>
+                                                    <p class="contents">프로스쿨 사이트 외
+                                                        다양한 채널을 통한
+                                                        홍보마케팅 / 세일즈</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="text-wrap">
+                                                    <p class="step">STEP 05</p>
+                                                    <p class="title">매니지먼트</p>
+                                                    <p class="contents">평가 시스템을 통한
+                                                        콘텐츠 품질 관리</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="javascript: modalNextBtnM();" class="modal-next-btn">다음</a>
+                                </div>
+                            </li>
+                            <li class="modal-li">
+                                <h2>MASTER BENEFIT</h2>
+                                <div class="modal-container">
+                                    <div class="col">
+                                        <ul class="list-wrap clearfix">
+                                            <li>
+                                                <div class="text-wrap">
+                                                    <img src="./images/benefit01.png" alt="아이콘">
+                                                    <p class="title">BRANDING</p>
+                                                    <p class="contents">전략적 교육 콘텐츠
+                                                        개발을 통한
+                                                        마스터 브랜딩 완성</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="text-wrap">
+                                                    <img src="./images/benefit02.png" alt="아이콘">
+                                                    <p class="title">MARKETING</p>
+                                                    <p class="contents">다양한 온오프라인
+                                                        채널을 통한
+                                                        홍보 마케팅 / 세일즈 전략</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="text-wrap">
+                                                    <img src="./images/benefit03.png" alt="아이콘">
+                                                    <p class="title">ASSET VALUE</p>
+                                                    <p class="contents">암호화폐 ‘프로토큰’
+                                                        보상체계를 통한
+                                                        경제적 자산 가치 상승</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="text-wrap">
+                                                    <img src="./images/benefit04.png" alt="아이콘">
+                                                    <p class="title">MANAGEMENT</p>
+                                                    <p class="contents">프로스쿨의 전문 기획자와
+                                                        협력하여 지속적인 콘텐츠
+                                                        Develop & Management
+                                                        서비스 제공</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="javascript: modalNextBtnM();" class="modal-next-btn">다음</a>
+                                </div>
+                            </li>
+                            <li class="modal-li">
+                                <h2>마스터 지원하기</h2>
+                                <div class="modal-container">
+                                    <div class="col">
+                                        <input type="text" name="name" placeholder="성명">
+                                        <input type="text" name="company" placeholder="회사명">
+                                        <input type="text" name="mail" placeholder="이메일">
+                                        <input type="number" name="number" placeholder="연락처">
+                                        <input type="text" name="target" placeholder="교육대상자">
+                                        <div class="file-wrap clearfix">
+                                            <input class="upload-name" value="파일선택" disabled="disabled">
+                                            <input class="upload-hidden a11y" type="file" id="file">
+                                            <label for="file">업로드</label>
+                                        </div>
+                                        <div class="terms-wrap">
+                                            <input class="checkbox a11y" type="checkbox" id="termscheck_">
+                                            <label for="termscheck_">
+                                                <span></span>
+                                            </label>
+                                            <a href="./information.html">개인정보 및 이용약관에 동의합니다.</a>
+                                        </div>
+
+                                    </div>
+                                    <a href="javascript: modalNextBtnM();" class="modal-next-btn submit-btn">등록하기</a>
+                                    <div class="notice">
+                                        <p>※ 유의사항</p>
+                                        <ul class="notice-wrap">
+                                            <li>
+                                                1. 마스터 파일첨부에는 (협력가능한 강의분야, 주요 이력, 학력, 경력, 저서, 교육 프로그램 간단 소개) 등의 내용을
+                                                포함하여 첨부파일로 제출해주시기 바랍니다.
+                                            </li>
+                                            <li>
+                                                2. 등록이 완료된 마스터 정보는 내부 절차를 통해 검토 후 선별적으로 연락 드립니다.
+                                            </li>
+                                            <li>
+                                                3. 당사에 제공된 프로필 정보는 내부 검토용으로 사용될 뿐 외부로 공개되지 않습니다.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <img class="top-btn" src="./images/topbtn.png" alt="스크롤탑">
+
+    <div class="quick-contents-back modal-back">
+        <div class="quick-contents modal">
+            <img class="quick-close-btn close-btn" src="./images/close-modal.png" alt="닫기">
+            <div class="inner">
+                <h2>문의하기</h2>
+                <form action="#">
+                    <input type="text" name="name" placeholder="성명">
+                    <input type="text" name="company" placeholder="회사명">
+                    <input type="text" name="mail" placeholder="이메일">
+                    <input type="number" name="number" placeholder="연락처">
+                    <input type="text" name="target" placeholder="교육대상자">
+                    <textarea name="text-contens" placeholder="문의내용"></textarea>
+                    <div class="terms-wrap">
+                        <input class="checkbox a11y" type="checkbox" id="termscheck">
+                        <label for="termscheck"></label>
+                        <a href="#">개인정보 및 이용약관에 동의합니다.</a>
+                    </div>
+                    <input class="submit-btn" type="submit" value="문의하기">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="quick-btn">
+            <div class="wrap clearfix">
+                <div class="icon">
+                    <img src="./images/mail.png" alt="문의하기">
+                </div>
+                <span>문의하기</span>
+            </div>
+        </div>
+
+    <header class="w-header">
+        <div class="inner clearfix">
+            <div class="col-1">
+                <img src="./images/telephone.png" alt="전화번호">
+                <span>02-6358-0055</span>
+            </div>
+            <a class="col-2" href="./"><img src="./images/proschool_logo.png" alt="로고"></a>
+            <a href="#" class="col-3">
+                <div class="wrap">
+                    <span>통합 교육 제안서</span>
+                    <img src="./images/arrow.png" alt="다운받기">
+                </div>
+            </a>
+        </div>
+        <nav>
+            <ul class="clearfix">
+                <li><a href="./masterlist.html">MASTER</a></li>
+                <li><a href="./reference.html">REFERENCE</a></li>
+                <li><a href="./newslist.html">NEWS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="m-header">
+        <div class="inner">
+            <a class="logo" href="./"><img src="./images/proschool_logo.png" alt="로고"></a>
+            <img class="menu" src="./images/menu.png" alt="menu">
+        </div>
+        <div class="nav-back">
+            <nav>
+                <div class="phon">
+                    <div class="wrap clearfix">
+                        <img src="./images/telephone.png" alt="전화번호">
+                        <span>02-6358-0055</span>
+                    </div>
+                    <img class="close-btn" src="./images/close.png" alt="닫기">
+                </div>
+                <ul class="nav-list">
+                    <li><a href="./masterlist.html">MASTER</a></li>
+                    <li><a href="./reference.html">REFERENCE</a></li>
+                    <li><a href="./newslist.html">NEWS</a></li>
+                </ul>
+                <a href="#" class="down">
+                    <div class="wrap">
+                        <span>통합 교육 제안서</span>
+                        <img src="./images/arrow.png" alt="다운받기">
+                    </div>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="master-list-pg detail-pg">
+        <div class="inner">
+            <h2 class="detail-title">MASTER</h2>
+            <p class="main-text">프로스쿨은 실효성 있는 교육을 제공하기 위해<br>
+                학문적 접근을 통한 깊은 지식과 현업의 비즈니스 전문성을 갖춘 [마스터]와 함께 합니다.</p>
+            <ul class="master-btn-list clearfix">
+                <li><button class="on-click active" data-target=".master-list1" type="button">전체
+                    <span class="count"><span class="auto">1000</span>명</span></button></li>
+                <li><button class="on-click" data-target=".master-list2" id="m-list2" type="button">디지털 혁신<span
+                            class="count"><span class="auto">50</span>명</span></button></li>
+                <li><button class="on-click" data-target=".master-list3" type="button">라이프<span class="count"><span
+                                class="auto">50</span>명</span></button></li>
+                <li><button class="on-click" data-target=".master-list4" type="button">직무역량<span class="count"><span
+                                class="auto">50</span>명</span></button></li>
+            </ul>
+
+            <ul class="category active master-list1">
+                <li class="clearfix">
+                    <div class="img-wrap">
+                        <div class="img"></div>
+                    </div>
+                    <div class="text-wrap clearfix">
+                        <div class="text clearfix">
+                            <p>#사업기획 #디지털기술</p>
+                            <h3><strong class="name">김성민</strong> 마스터</h3>
+                            <div class="score clearfix">
+                                <h4><span class="auto">4.7</span>/5</h4>
+                                <div class="question-wrap">
+                                    <img id="question_open_1" class="question-btn" src="./images/question.png" alt="물음표"
+                                        onclick="javascript: questionOpen(1);">
+                                    <div id="question_wrap_1" class="question-contetns clearfix">
+                                        <p>
+                                            <strong>MIF란 콘텐츠의 품질과 라이프 사이클을 관리하기 위해
+                                                프로스쿨에서 자체 개발한 마스터 평가 시스템입니다.</strong>
+                                            * 평가 기준 : 학습자 평가지수 + 자문그룹 평가지수 +
+                                            누적 수강생 수 + 추천지수
+                                        </p>
+                                        <img id="question_close_1" class="close-btn" src="./images/close.png" alt="닫기"
+                                            onclick="javascript: questionClose(1);">
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="sub-text">
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                            </ul>
+                        </div>
+                        <div class="more-btn">
+                            <a href="./masterlistdetail.html">MORE</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="img-wrap">
+                        <div class="img"></div>
+                    </div>
+                    <div class="text-wrap clearfix">
+                        <div class="text clearfix">
+                            <p>#사업기획 #디지털기술</p>
+                            <h3><strong class="name">김성민</strong> 마스터</h3>
+                            <div class="score clearfix">
+                                <h4><span class="auto">4.7</span>/5</h4>
+                                <div class="question-wrap">
+                                    <img id="question_open_2" class="question-btn" src="./images/question.png" alt="물음표"
+                                        onclick="javascript: questionOpen(2);">
+                                    <div id="question_wrap_2" class="question-contetns clearfix">
+                                        <p>
+                                            <strong>MIF란 콘텐츠의 품질과 라이프 사이클을 관리하기 위해
+                                                프로스쿨에서 자체 개발한 마스터 평가 시스템입니다.</strong>
+                                            * 평가 기준 : 학습자 평가지수 + 자문그룹 평가지수 +
+                                            누적 수강생 수 + 추천지수
+                                        </p>
+                                        <img id="question_close_2" class="close-btn" src="./images/close.png" alt="닫기"
+                                            onclick="javascript: questionClose(2);">
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="sub-text">
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                            </ul>
+                        </div>
+                        <div class="more-btn">
+                            <a href="./masterlistdetail.html">MORE</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="category master-list2">
+                <li class="clearfix">
+                    <div class="img-wrap">
+                        <div class="img"></div>
+                    </div>
+                    <div class="text-wrap clearfix">
+                        <div class="text clearfix">
+                            <p>#사업기획 #디지털기술</p>
+                            <h3><strong class="name">김성민</strong> 마스터</h3>
+                            <div class="score clearfix">
+                                <h4><span class="auto">4.7</span>/5</h4>
+                                <div class="question-wrap">
+                                    <img class="question-btn" src="./images/question.png" alt="물음표">
+                                    <div class="question-contetns clearfix">
+                                        <p>
+                                            <strong>MIF란 콘텐츠의 품질과 라이프 사이클을 관리하기 위해
+                                                프로스쿨에서 자체 개발한 마스터 평가 시스템입니다.</strong>
+                                            * 평가 기준 : 학습자 평가지수 + 자문그룹 평가지수 +
+                                            누적 수강생 수 + 추천지수
+                                        </p>
+                                        <img class="close-btn" src="./images/close.png" alt="닫기">
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="sub-text">
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                            </ul>
+                        </div>
+                        <div class="more-btn">
+                            <a href="./masterlistdetail.html">MORE</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="category master-list3">
+                <li class="clearfix">
+                    <div class="img-wrap">
+                        <div class="img"></div>
+                    </div>
+                    <div class="text-wrap clearfix">
+                        <div class="text clearfix">
+                            <p>#사업기획 #디지털기술</p>
+                            <h3><strong class="name">김성민</strong> 마스터</h3>
+                            <div class="score clearfix">
+                                <h4><span class="auto">4.7</span>/5</h4>
+                                <div class="question-wrap">
+                                    <img class="question-btn" src="./images/question.png" alt="물음표">
+                                    <div class="question-contetns clearfix">
+                                        <p>
+                                            <strong>MIF란 콘텐츠의 품질과 라이프 사이클을 관리하기 위해
+                                                프로스쿨에서 자체 개발한 마스터 평가 시스템입니다.</strong>
+                                            * 평가 기준 : 학습자 평가지수 + 자문그룹 평가지수 +
+                                            누적 수강생 수 + 추천지수
+                                        </p>
+                                        <img class="close-btn" src="./images/close.png" alt="닫기">
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="sub-text">
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                            </ul>
+                        </div>
+                        <div class="more-btn">
+                            <a href="./masterlistdetail.html">MORE</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="category master-list4">
+                <li class="clearfix">
+                    <div class="img-wrap">
+                        <div class="img"></div>
+                    </div>
+                    <div class="text-wrap clearfix">
+                        <div class="text clearfix">
+                            <p>#사업기획 #디지털기술</p>
+                            <h3><strong class="name">김성민</strong> 마스터</h3>
+                            <div class="score clearfix">
+                                <h4><span class="auto">4.7</span>/5</h4>
+                                <div class="question-wrap">
+                                    <img class="question-btn" src="./images/question.png" alt="물음표">
+                                    <div class="question-contetns clearfix">
+                                        <p>
+                                            <strong>MIF란 콘텐츠의 품질과 라이프 사이클을 관리하기 위해
+                                                프로스쿨에서 자체 개발한 마스터 평가 시스템입니다.</strong>
+                                            * 평가 기준 : 학습자 평가지수 + 자문그룹 평가지수 +
+                                            누적 수강생 수 + 추천지수
+                                        </p>
+                                        <img class="close-btn" src="./images/close.png" alt="닫기">
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="sub-text">
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                            </ul>
+                        </div>
+                        <div class="more-btn">
+                            <a href="./masterlistdetail.html">MORE</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="img-wrap">
+                        <div class="img"></div>
+                    </div>
+                    <div class="text-wrap clearfix">
+                        <div class="text clearfix">
+                            <p>#사업기획 #디지털기술</p>
+                            <h3><strong class="name">김성민</strong> 마스터</h3>
+                            <div class="score clearfix">
+                                <h4><span class="auto">4.7</span>/5</h4>
+                                <div class="question-wrap">
+                                    <img class="question-btn" src="./images/question.png" alt="물음표">
+                                    <div class="question-contetns clearfix">
+                                        <p>
+                                            <strong>MIF란 콘텐츠의 품질과 라이프 사이클을 관리하기 위해
+                                                프로스쿨에서 자체 개발한 마스터 평가 시스템입니다.</strong>
+                                            * 평가 기준 : 학습자 평가지수 + 자문그룹 평가지수 +
+                                            누적 수강생 수 + 추천지수
+                                        </p>
+                                        <img class="close-btn" src="./images/close.png" alt="닫기">
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="sub-text">
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                                <li>ㆍ 유럽 블록체인 기업 림포 Lympo 아시아 총괄</li>
+                            </ul>
+                        </div>
+                        <div class="more-btn">
+                            <a href="./masterlistdetail.html">MORE</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <button class="drop-down">
+                <span>더보기</span><img src="./images/arrow-down-gr.png" alt="다운">
+            </button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="inner">
+            <div class="wrap clearfix">
+                <div class="list-wrap clearfix">
+                    <div class="col">
+                        <h5>기타문의</h5>
+                        <ul>
+                            <li><button class="master-btn" type="button">마스터 지원하기</button></li>
+                            <li><a href="mailto:idesignlab@idesignlab.net">비즈니스 및 제휴</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h5>고객센터</h5>
+                        <ul>
+                            <li>전화 : 02-6358-0055 (월-금 09:30~18:30시)</li>
+                            <li>이메일 : <a href="mailto:idesignlab@idesignlab.net">idesignlab@idesignlab.net </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="select-box">
+                    <div class="wrap">
+                        <span>Family Site</span>
+                        <img src="./images/arrow-down-gr.png" alt="이미지">
+                    </div>
+                    <ul class="select-list">
+                        <li class="close">
+                            <div class="wrap">
+                                <span>Family Site</span>
+                                <img src="./images/arrow.png" alt="이미지">
+                            </div>
+                        </li>
+                        <li><a href="https://proschool.kr/">PROSchool.kr</a></li>
+                        <li><a href="https://proschool.io/">PROSchool.io</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wrap clearfix">
+                <div class="infor-wrap">
+                    <p>(주)아이디자인랩 | 사업자등록번호 : 424-86-00869 | 대표 : 김태영<br>
+                        서울특별시 마포구 잔다리로3안길 24 (서교동) LIME HOUSE 303호</p>
+                    <ul class="clearfix">
+                        <li><a href="./information.html">개인정보처리방침</a></li>
+                    </ul>
+                </div>
+                <div class="newsletter">
+                    <p>프로스쿨의 최신정보를 메일로 받아보세요.</p>
+                    <form action="#">
+                        <input type="email" name="newsletter-email" placeholder="이메일을 입력해주세요.">
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/common.js"></script>
+    <script src="./js/masterlist.js"></script>
+</body>
+
+</html>
