@@ -59,7 +59,7 @@
 }
 /* mobile device */
 @media only screen and (max-width:700px) {
-    .infor-pg {padding-top: 100px;}
+    .infor-pg {padding-top: 82px;}
     .infor-pg .inner { width: 80%; min-width: 80%; }
 }
 @media only screen and (max-width:440px) {

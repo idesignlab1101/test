@@ -220,25 +220,23 @@
 }
 /* pad device */
 @media only screen and (max-width:810px) {
-    /* .master-list-pg .master-btn-list button {width: 130px; height: 130px;}
-    .master-list-pg .master-btn-list li {min-width: 134px;} */
     .master-list-pg .category .text-wrap .sub-text {font-size: 1rem;}
     .master-list-pg .category .text-wrap .score .question-contetns {width: auto;}
 }
 /* mobile device */
 @media only screen and (max-width:700px) {
-    .master-list-pg {padding-top: 100px;}
+    .top-btn {bottom: 14%;}
+    .master-list-pg {padding-top: 82px;}
+    .master-list-pg .category > li {margin-bottom: 13%;}
     .master-list-pg .inner { width: 80%; min-width: 80%; }
     .master-list-pg .category .img-wrap,.master-list-pg .category .text-wrap {width: 100%;}
     .master-list-pg .master-btn-list li:nth-child(even) {margin-bottom: 3%;}
     .master-list-pg .category .more-btn {margin-top: 5%;}
     .master-list-pg .category > li {height: auto;}
     .master-list-pg .category .text-wrap .text {width: 100%;}
-    .master-list-pg .master-btn-list button {width: 120px; height: 120px;}
-    .master-list-pg .master-btn-list li {min-width: 121px;}
+    .master-list-pg .master-btn-list button {width: 90px; height: 90px;}
+    .master-list-pg .master-btn-list li {min-width: 103px;}
 }
 @media only screen and (max-width:440px) {
-    /* .master-list-pg .master-btn-list button {width: 120px; height: 120px;}
-    .master-list-pg .master-btn-list li {min-width: 121px;} */
     .master-list-pg .category .text-wrap .score .question-contetns {min-width: 228px;}
 }

@@ -767,10 +767,11 @@ header {
 /* m-header start */
 .m-header {
     display: none;
+    height: 55px;
 }
 .m-header .logo {
     display: block;
-    width: 40%;
+    width: 30%;
     position: absolute;
     top: 50%;
     left: 0;
@@ -783,7 +784,7 @@ header {
     vertical-align: middle;
 }
 .m-header .menu {
-    width: 8%;
+    width: 6%;
     position: absolute;
     top: 50%;
     right: 0;
@@ -1059,6 +1060,7 @@ footer .newsletter input {
     height: 40px;
     font-size: 1rem;
     font-weight: 500;
+    border-radius: 0;
     border: 0;
     color: #808080;
     border-bottom: 1px solid #cccccc;
@@ -1092,6 +1094,7 @@ footer .newsletter button {
 /* mobile device */
 @media only screen and (max-width:700px) {
     html {font-size: 70% !important;}
+    section,footer {padding-top: 10%; padding-bottom: 11%;}
     .w-header {display: none;}
     .m-header {display: block;}
     .main-pg{padding-top: 70px;}
@@ -1101,6 +1104,7 @@ footer .newsletter button {
     .quick-btn .wrap span {margin-left: 7%;}
     .modal {width: 90%;}
     .inner {width: 90%;}
+    .detail-title {margin-bottom: 5%;}
 }
 @media only screen and (max-width:440px) {
     footer .newsletter input {width: 170px;}

@@ -52,8 +52,6 @@ let dataSection = document.querySelector('.data-pg');
 let dataSectionTop = dataSection.offsetTop;
 $(window).scroll(function () {
   if ($(this).scrollTop() <= dataSectionTop - marginT) {
-
-
     if (!counterTrue) {
       if (!motion.classList.contains('active')) {
         motion.classList.add('active');

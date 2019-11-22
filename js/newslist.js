@@ -36,7 +36,7 @@ $(function () {
 var noticeSlider = new Swiper('.notice-slider', {
     loop: true,
     spaceBetween: 30,
-    cssMode: true,
+    speed: 1000,
     centeredSlides: true,
     autoplay: {
         delay: 3000,
@@ -45,15 +45,30 @@ var noticeSlider = new Swiper('.notice-slider', {
 });
 
 // notice slider 
-// 모바일 일때 notice slider 생길때 section padding-top 변환
-$(window).resize(function() { if($(window).width() <700) { 
+// 모바일 기준 notice slider 생길때 section padding-top 변환
+// 넓이만 인식하는 스크립트
+if($(window).width() <= 700) {  
     $('.notice-slider-wrap').hasClass('active')
-    $('.news-list-pg').css('padding-top', '150px')
- } 
+    $('.news-list-pg').css('padding-top', '124px')
+}
+// 창바뀔때마다 인식하는 스크립트
+$(window).resize(function (){
+    if ($(window).width() <= 700) {
+        $('.notice-slider-wrap').hasClass('active')
+        $('.news-list-pg').css('padding-top', '124px')
+    }
 });
-// notice slider 생길때 section padding-top 변환
-$(function () {
-    ($('.notice-slider-wrap').hasClass('active'))
-    $('.news-list-pg').css('padding-top', '196px')
 
+// 웹 기준 notice slider 생길때 section padding-top 변환
+// 넓이만 인식하는 스크립트
+if($(window).width() > 700) {  
+    $('.notice-slider-wrap').hasClass('active')
+    $('.news-list-pg').css('padding-top', '196px')
+}
+// 창바뀔때마다 인식하는 스크립트
+$(window).resize(function (){
+    if ($(window).width() > 700) {
+        $('.notice-slider-wrap').hasClass('active')
+        $('.news-list-pg').css('padding-top', '196px')
+    }
 });

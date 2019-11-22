@@ -541,7 +541,7 @@
 }
 /* mobile device */
 @media only screen and (max-width:700px) {
-    .master-list-detail-pg {padding-top: 100px;}
+    .master-list-detail-pg {padding-top: 82px;}
     .master-list-detail-pg .inner { width: 80%; min-width: 80%; }
     .education-pg a {width: 150px; float: left;margin-top: 5%;height: 40px;}
     .education-pg a .wrap span {font-size: 13px;}
