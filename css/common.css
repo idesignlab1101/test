@@ -739,12 +739,12 @@ header {
     max-width: 700px;
     height: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 .w-header nav ul li {
+    display: inline-block;
     width: 200px;
-    margin-right: 50px;
     height: 100%;
-    float: left;
     text-align: center;
 }
 .w-header nav ul li:last-child {
