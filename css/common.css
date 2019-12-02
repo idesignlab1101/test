@@ -736,8 +736,8 @@ header {
     box-shadow: 0 6px 6px 0 rgba(170, 170, 170, 0.16);
 }
 .w-header nav ul {
-    max-width: 550px;
-    width: 100%;
+    min-width: 500px;
+    width: 40%;
     height: 100%;
     margin: 0 auto;
     text-align: center;
@@ -747,7 +747,7 @@ header {
     width: 30%;
     height: 100%;
     text-align: center;
-    background-color: lightgoldenrodyellow
+    background-color: lightgrey;
 }
 .w-header nav ul li:last-child {
     margin-right: 0;
