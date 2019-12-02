@@ -736,7 +736,7 @@ header {
     box-shadow: 0 6px 6px 0 rgba(170, 170, 170, 0.16);
 }
 .w-header nav ul {
-    max-width: 700px;
+    max-width: 630px;
     height: 100%;
     margin: 0 auto;
     text-align: center;
